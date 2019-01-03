@@ -1588,7 +1588,7 @@ exports = module.exports = __webpack_require__(6)();
 
 
 // module
-exports.push([module.i, "span.vue-typer[data-v-c41bac74]{cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}span.vue-typer span.left[data-v-c41bac74],span.vue-typer span.right[data-v-c41bac74]{display:inline}", ""]);
+exports.push([module.i, "span.vue-typer[data-v-c41bac74]{cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}span.vue-typer span.leftspace[data-v-c41bac74],span.vue-typer span.rightspace[data-v-c41bac74]{display:inline}", ""]);
 
 // exports
 
@@ -2235,7 +2235,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('span', {
     staticClass: "vue-typer"
   }, [_c('span', {
-    staticClass: "left"
+    staticClass: "leftspace"
   }, _vm._l((_vm.numLeftChars), function(l) {
     return _c('char', {
       staticClass: "custom typed",
@@ -2249,7 +2249,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "animation": _vm.caretAnimation
     }
   }), _c('span', {
-    staticClass: "right"
+    staticClass: "rightspace"
   }, _vm._l((_vm.numRightChars), function(r) {
     return _c('char', {
       staticClass: "custom",
